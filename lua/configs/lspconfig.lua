@@ -1,6 +1,19 @@
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls" }
+local servers = {
+  "html",
+  "cssls",
+  "bashls",
+  "docker-compose-language-service",
+  "dockerls",
+  "nixd",
+  "clangd",
+  "rust_analyzer",
+  "gopls",
+  "texlab",
+  "yamlls",
+  "tombi",
+}
 vim.lsp.enable(servers)
 
--- read :h vim.lsp.config for changing options of lsp servers 
+-- read :h vim.lsp.config for changing options of lsp servers
