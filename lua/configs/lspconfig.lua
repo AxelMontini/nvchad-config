@@ -13,6 +13,7 @@ local servers = {
   "texlab",
   "yamlls",
   "tombi",
+  "marksman",
 }
 vim.lsp.enable(servers)
 
