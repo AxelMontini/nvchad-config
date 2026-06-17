@@ -1,7 +1,6 @@
 local options = {
   strategy = {
     [''] = 'rainbow-delimiters.strategy.global',
-    -- rust = 'rainbow-delimiters.strategy.local',
   },
   query = {
     [''] = 'rainbow-delimiters',
@@ -12,6 +11,15 @@ local options = {
     [''] = 110,
     lua = 210,
     rust = 310,
+  },
+  highlight = {
+    'RainbowDelimiterRed',
+    'RainbowDelimiterYellow',
+    'RainbowDelimiterBlue',
+    'RainbowDelimiterOrange',
+    'RainbowDelimiterGreen',
+    'RainbowDelimiterViolet',
+    'RainbowDelimiterCyan',
   },
 }
 
