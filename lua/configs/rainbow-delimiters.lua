@@ -10,7 +10,7 @@ local options = {
   priority = {
     [''] = 110,
     lua = 210,
-    rust = 310,
+    rust = 210,
   },
   highlight = {
     'RainbowDelimiterRed',
