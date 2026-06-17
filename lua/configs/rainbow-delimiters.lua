@@ -1,7 +1,7 @@
 local options = {
   strategy = {
     [''] = 'rainbow-delimiters.strategy.global',
-    rust = 'rainbow-delimiters.strategy.local',
+    -- rust = 'rainbow-delimiters.strategy.local',
   },
   query = {
     [''] = 'rainbow-delimiters',
