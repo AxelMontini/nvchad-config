@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -12,6 +12,13 @@ return {
       require "configs.lspconfig"
     end,
   },
+
+  {
+    "HiPhish/rainbow-delimiters.nvim",
+    config = function()
+      require "configs.rainbow-delimiters"
+    end,
+  }
 
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
