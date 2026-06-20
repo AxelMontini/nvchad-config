@@ -17,6 +17,8 @@ local options = {
     timeout_ms = 500,
     lsp_fallback = true,
   },
+
+  log_level = vim.log.levels.DEBUG,
 }
 
 return options
