@@ -1,8 +1,15 @@
+-- Prettier (prefer daemon if available)
+local prettier_fmt = { "prettierd", "prettier", stop_after_first = true }
+
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    rust = { "rustfmt", lsp_format = "fallback" },
+    css = prettier_fmt,
+    html = prettier_fmt,
+    nix = { "nixfmt" },
+    yaml = { "yamlfmt" },
+    markdown = { "rumdl" },
   },
 
   format_on_save = {
