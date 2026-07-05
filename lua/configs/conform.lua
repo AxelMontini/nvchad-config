@@ -10,6 +10,7 @@ local options = {
     nix = { "nixfmt" },
     yaml = { "yamlfmt" },
     markdown = { "rumdl" },
+    toml = { "taplo" },
   },
 
   format_on_save = {
